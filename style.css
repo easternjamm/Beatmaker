@@ -17,22 +17,22 @@ i, svg {
     cursor: pointer;
 }
 .kick-pad {
-    background: rgb(36, 36, 155);
+    background: rgb(53, 53, 197);
 }
 .snare-pad {
-    background: rgb(36, 155, 129);
+    background: rgb(46, 189, 158);
 }
 .hihat-pad {
-    background: rgb(119, 163, 37);
+    background: rgb(143, 201, 37);
 }
 .kick-pad.active {
-    background: rgb(12, 12, 148);
+    background: rgb(1, 1, 105);
 }
 .snare-pad.active {
-    background: rgb(4, 196, 154);
+    background: rgb(2, 124, 98);
 }
 .hihat-pad.active {
-    background: rgb(136, 207, 3);
+    background: rgb(83, 126, 2);
 }
 .sequencer {
     display: flex;
