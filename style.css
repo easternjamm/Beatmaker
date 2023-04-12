@@ -61,7 +61,7 @@ i, svg {
 .controls button {
     padding: 1rem;
     border: none;
-    background: rgb(51, 51, 51);
+    background: rgb(102, 100, 100);
     color: white;
     font-size: 1rem;
     cursor: pointer;
@@ -73,7 +73,7 @@ i, svg {
 .play {
     padding: 1rem 2rem;
     font-size: 1.5rem;
-    background:rgb(51, 51, 51);
+    background:rgb(102, 100, 100);
     color: white;
     border: none;
     cursor: pointer;
@@ -83,7 +83,28 @@ select {
     padding: 1rem;
     font-size: 1rem;
 }
-
+.mute.active {
+    background: rgb(51, 51, 51);
+}
+.tempo {
+    margin: 3rem;
+    width: 30%;
+}
+.tempo-slider {
+    padding: 0.2rem;
+    -webkit-appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    background:rgb(102, 100, 100);
+    cursor: pointer;
+    border-radius: 1rem;
+}
+.tempo p {
+    font-size: 1.5rem;
+    margin: 2rem;
+    text-align: center;
+}
 @keyframes playTrack {
     from {
         transform: scale(1);
